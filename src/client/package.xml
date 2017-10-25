@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>client</name>
+  <version>0.0.0</version>
+  <description>The service package</description>
+  <maintainer email="artem@todo.todo">artem</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>concat2str</build_depend>
+  <run_depend>concat2str</run_depend>
+  <run_depend>roscpp</run_depend>
+  <export>
+  </export>
+</package>

@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="concat2str" type="concat2str" name="meow" />
+	<node pkg="client" type="client" name="gav" required="true" output="screen"/>
+	<node pkg="logger" type="logger" name="log" args="$(arg topics) $(arg nodes)"/>
+</launch>

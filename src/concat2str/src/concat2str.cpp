@@ -12,9 +12,9 @@ bool serverCallback(concat2str::concat2str::Request &req,
 
 int main(int argc, char **argv)
 {
-  std::string name = ros::this_node::getName() + "/my_service";
   ros::init(argc, argv, "concat2str");
   ros::NodeHandle n;
+  std::string name = ros::this_node::getName() + "/my_service";
   ros::ServiceServer server = n.advertiseService(name, serverCallback);
   ros::spin();
 
